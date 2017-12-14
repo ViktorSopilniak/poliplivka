@@ -1,0 +1,55 @@
+.article-text__slogan {
+    font-size: 2.5rem;
+    text-align: left;
+    max-width: 50%;
+    padding-top: 200px;
+}
+
+@import "bourbon";
+// Colors
+$firstColor: #f45b69;
+$SecondColor: #FCCF58;
+
+$firstColor: rgba(2, 128, 144, 1);
+$SecondColor: rgba(69, 105, 144, 1);
+
+.article-wrapper__slogan {
+    height: 100vh;
+    width: 112.5%;
+    overflow: hidden;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: 1200px;
+        height: 1200px;
+        border-top-left-radius: 40%;
+        border-top-right-radius: 45%;
+        border-bottom-left-radius: 35%;
+        border-bottom-right-radius: 40%;
+        z-index: -1;
+    }
+    &::before {
+        left: 70%;
+        bottom: -35%;
+        background-color: rgba($firstColor, 0.35);
+        @include animation(wawes 45s infinite linear);
+    }
+    &::after {
+        left: 55%;
+        bottom: -40%;
+        background-color: rgba($SecondColor, 0.4);
+        @include animation(wawes 30s infinite);
+    }
+}
+
+@include keyframes (wawes) {
+    from {
+        @include transform(rotate(0));
+    }
+    to {
+        @include transform(rotate(-360deg));
+    }
+}

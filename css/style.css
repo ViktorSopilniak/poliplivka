@@ -9,7 +9,13 @@ a:hover {
 }
 
 .logo-wrapper {
+    position: fixed;
+    width: 100%;
     background-color: #272626;
+    z-index: 1;
+}
+body {
+    background-color: white;
 }
 footer {
     margin-top: 20px;
@@ -33,18 +39,18 @@ h1 {
     font-family: 'Exo 2', sans-serif;
     color: #FCDE74;
     text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 20px;
+    /* padding-bottom: 10px; */
 }
 
 h2 {
     font-family: 'Comfortaa', cursive;
     color: #FCDE74;
     text-align: center;
-    font-size: 2rem;
-    padding-bottom: 40px;
+    font-size: 1.8rem;
+    padding-bottom: 30px;
 }
 
 p {
