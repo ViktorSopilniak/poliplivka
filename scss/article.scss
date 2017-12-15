@@ -1,24 +1,22 @@
+@import "bourbon";
+
+// Colors
+$firstColor: rgba(2, 128, 144, 1);
+$SecondColor: rgba(69, 105, 144, 1);
+
 .article-text__slogan {
     font-size: 2.5rem;
     text-align: left;
     max-width: 50%;
     padding-top: 200px;
+    padding-left: 30px;
 }
-
-@import "bourbon";
-// Colors
-$firstColor: #f45b69;
-$SecondColor: #FCCF58;
-
-$firstColor: rgba(2, 128, 144, 1);
-$SecondColor: rgba(69, 105, 144, 1);
 
 .article-wrapper__slogan {
     height: 100vh;
-    width: 112.5%;
+    width: 100%;
     overflow: hidden;
     position: relative;
-
     &::before,
     &::after {
         content: '';
@@ -51,5 +49,45 @@ $SecondColor: rgba(69, 105, 144, 1);
     }
     to {
         @include transform(rotate(-360deg));
+    }
+}
+
+.article-text__features {
+    padding: 20px 30px;
+    font-size: 2.5rem;
+}
+
+.article-wrapper__features {
+    height: 100vh;
+}
+
+.features-box {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    list-style: none;
+    &__item {
+        // min-width: 33.3333%;
+        padding: 0 20px;
+    }
+    &__item--slogan {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    &__item--comment {
+        padding-top: 20px;
+        font-size: 1.3rem;
+        font-style: italic;
+    }
+    &__icon {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 20px auto;
+    }
+    &__icon:hover {
+        position: relative;
+        transform: scale(1.1);
     }
 }

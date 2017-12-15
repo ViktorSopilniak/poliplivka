@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a,
@@ -15,7 +16,7 @@ a:hover {
     z-index: 1;
 }
 body {
-    background-color: white;
+    /* background-color: white; */
 }
 footer {
     margin-top: 20px;
@@ -42,7 +43,6 @@ h1 {
     font-size: 5rem;
     margin-top: 0px;
     margin-bottom: 0px;
-    /* padding-bottom: 10px; */
 }
 
 h2 {
@@ -57,13 +57,6 @@ p {
     font-family: 'Arsenal', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    padding-top: 15px;
-    text-align: justify;
-}
-
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
 }
 
 ol {
@@ -73,10 +66,4 @@ ol {
 li {
     font-family: 'Cuprum', sans-serif;
     font-size: 1.3rem;
-}
-
-article {
-    margin: auto;
-    width: 80%;
-    color: #272626;
 }
