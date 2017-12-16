@@ -10,10 +10,10 @@ a:hover {
 }
 
 footer {
-    margin-top: 20px;
-    background-color: #272626;
-    height: 50px;
+    background-color: #839788;
+    min-height: 100px;
     width: 100%;
+    color: #EBE9E9;
 }
 
 h6 {
@@ -29,7 +29,8 @@ h6 {
 
 h1 {
     font-family: 'Exo 2', sans-serif;
-    color: #FCDE74;
+    color: #FFC700;
+    /* color: #FCDE74; */
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -37,14 +38,13 @@ h1 {
 
 h2 {
     font-family: 'Comfortaa', cursive;
-    color: #FCDE74;
+    color: #FFC700;
     text-align: center;
 }
 
 p {
     font-family: 'Arsenal', sans-serif;
     font-size: 1.5rem;
-    font-weight: 600;
 }
 
 ol {
@@ -54,4 +54,8 @@ ol {
 li {
     font-family: 'Cuprum', sans-serif;
     font-size: 1.3rem;
+}
+
+article {
+    background-color: #1F2421;
 }

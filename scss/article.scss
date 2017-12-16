@@ -1,7 +1,7 @@
 @import "bourbon";
 // Colors
-$firstColor: rgba(2, 128, 144, 1);
-$SecondColor: rgba(69, 105, 144, 1);
+$firstColor: #F5B841;
+$SecondColor: #E2C044;
 // ------- Первая страница -------
 .logo-wrapper {
     display: flex;
@@ -24,15 +24,19 @@ $SecondColor: rgba(69, 105, 144, 1);
 
 .article-text {
     &__features {
-        padding: 20px 30px;
+        padding: 50px 30px;
         font-size: 2.5rem;
+        font-weight: 600;
+        color: #EBE9E9;
     }
     &__slogan {
         font-size: 2.5rem;
         text-align: left;
         max-width: 50%;
-        padding-top: 200px;
         padding-left: 30px;
+        padding-bottom: 20px;
+        color: #EBE9E9;
+        text-shadow: 1px 1px 1px black;
     }
 }
 
@@ -80,14 +84,14 @@ $SecondColor: rgba(69, 105, 144, 1);
 .link__tel {
     display: inline-block;
     font-family: 'Comfortaa', cursive;
-    color: #FCDE74;
+    color: #FFC700;
     text-align: center;
     font-size: 1.3rem;
 }
 
 // ------- Вторая страница -------
 .nav-pad {
-    height: 90px;
+    height: 100px;
 }
 
 .article-wrapper__slogan {
@@ -95,6 +99,9 @@ $SecondColor: rgba(69, 105, 144, 1);
     width: 100%;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     &::before,
     &::after {
         content: '';
@@ -105,18 +112,18 @@ $SecondColor: rgba(69, 105, 144, 1);
         border-top-right-radius: 45%;
         border-bottom-left-radius: 35%;
         border-bottom-right-radius: 40%;
-        z-index: -1;
+        z-index: 0;
     }
     &::before {
         left: 70%;
         bottom: -35%;
-        background-color: rgba($firstColor, 0.35);
+        background-color: rgba($firstColor, 0.8);
         @include animation(wawes 45s infinite linear);
     }
     &::after {
         left: 55%;
         bottom: -40%;
-        background-color: rgba($SecondColor, 0.4);
+        background-color: rgba($SecondColor, 0.8);
         @include animation(wawes 30s infinite);
     }
 }
@@ -133,11 +140,11 @@ $SecondColor: rgba(69, 105, 144, 1);
 .article-wrapper {
     &__box-features {
         // height: 100vh;
-        background-color: #FFF039;
+        background-color: #1F2421;
     }
     &__box-parametres {
         // height: 100vh;
-        background-color: #DD7373;
+        background-color: #1F2421;
     }
 }
 
@@ -147,23 +154,35 @@ $SecondColor: rgba(69, 105, 144, 1);
     justify-content: space-between;
     flex-wrap: nowrap;
     list-style: none;
+    &__three-in-row {
+        min-width: 33.3333%;
+    }
     &__item {
-        // min-width: 33.3333%;
         padding: 0 20px;
+        min-height: 500px;
+    }
+    &__item--title {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+        color: #EBE9E9;
     }
     &__item--slogan {
         text-align: center;
         font-size: 1.8rem;
+        color: #E9D758;
     }
     &__item--comment {
         padding-top: 20px;
         font-size: 1.3rem;
         font-style: italic;
         text-align: center;
+        color: #839788;
     }
     &__icon {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         display: block;
         margin: 20px auto;
     }
@@ -202,10 +221,6 @@ $SecondColor: rgba(69, 105, 144, 1);
     88.8% {
         transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
     }
-}
-
-.features-box__item--slogan strong {
-    font-weight: 900;
 }
 
 // -------- Третья страница --------
