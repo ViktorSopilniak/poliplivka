@@ -1,5 +1,90 @@
 @charset "UTF-8";
 /* line 7, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.logo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #272626;
+  transition: all 0.5s;
+}
+
+/* line 17, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.logo-wrapper__header {
+  font-size: 5rem;
+}
+
+/* line 20, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.logo-wrapper__slogan {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+/* line 26, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.shrink-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+/* line 37, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.shrink-header {
+  text-align: left;
+  font-size: 4rem;
+  padding-left: 30px;
+}
+
+/* line 43, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.shrink-slogan {
+  text-align: left;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+/* line 49, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.logo-wrapper__slogan-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+/* line 56, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.logo-wrapper__tel {
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 62, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.shrink-tel {
+  display: flex;
+}
+
+/* line 66, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.link__tel {
+  display: inline-block;
+  font-family: 'Comfortaa', cursive;
+  color: #FCDE74;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/* line 75, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.nav-pad {
+  height: 90px;
+}
+
+/* line 79, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .article-text__slogan {
   font-size: 2.5rem;
   text-align: left;
@@ -8,7 +93,7 @@
   padding-left: 30px;
 }
 
-/* line 15, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 87, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .article-wrapper__slogan {
   height: 100vh;
   width: 100%;
@@ -16,7 +101,7 @@
   position: relative;
 }
 
-/* line 20, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 92, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .article-wrapper__slogan::before, .article-wrapper__slogan::after {
   content: '';
   position: absolute;
@@ -29,7 +114,7 @@
   z-index: -1;
 }
 
-/* line 32, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 104, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .article-wrapper__slogan::before {
   left: 70%;
   bottom: -35%;
@@ -39,7 +124,7 @@
   animation: wawes 45s infinite linear;
 }
 
-/* line 38, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 110, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .article-wrapper__slogan::after {
   left: 55%;
   bottom: -40%;
@@ -84,18 +169,19 @@
   }
 }
 
-/* line 55, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 127, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .article-text__features {
   padding: 20px 30px;
   font-size: 2.5rem;
 }
 
-/* line 60, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 132, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .article-wrapper__features {
   height: 100vh;
+  background-color: #FCDE74;
 }
 
-/* line 64, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 137, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box {
   display: flex;
   padding: 10px 20px;
@@ -104,25 +190,26 @@
   list-style: none;
 }
 
-/* line 70, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 143, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item {
   padding: 0 20px;
 }
 
-/* line 74, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 147, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item--slogan {
   text-align: center;
   font-size: 1.8rem;
 }
 
-/* line 78, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 151, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item--comment {
   padding-top: 20px;
   font-size: 1.3rem;
   font-style: italic;
+  text-align: center;
 }
 
-/* line 83, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 157, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__icon {
   width: 200px;
   height: 200px;
@@ -130,7 +217,7 @@
   margin: 20px auto;
 }
 
-/* line 89, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 163, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__icon:hover {
   position: relative;
   transform: scale(1.1);
