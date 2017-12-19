@@ -1,0 +1,102 @@
+$switch-speed: 1s;
+$slider-number: 7;
+$slider-width: 100% / $slider-number;
+$image1: "../image/slide-1.jpg";
+$image2: "../image/slide-2.jpg";
+$image3: "../image/slide-3.jpg";
+$image4: "../image/slide-4.jpg";
+$image5: "../image/slide-5.jpg";
+$image6: "../image/slide-6.jpg";
+$image7: "../image/slide-7.jpg";
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+// basic styles
+.slider-wrap {
+    // width: 62%;
+    width: 100%;
+    margin: auto;
+    // margin-bottom: 50px;
+    padding-bottom: 45%;
+    position: relative;
+    // border: 10px solid #504d4a;
+    background-color: #504d4a;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    >input {
+        display: none;
+    }
+    .slider-content {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% * $slider-number;
+        height: 100%;
+        font-size: 0;
+        list-style: none;
+        transition: transform $switch-speed;
+    }
+    .s-item {
+        display: inline-block;
+        width: $slider-width;
+        height: 100%;
+        // height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .s-item-1 {
+        background-image: url($image1);
+    }
+    .s-item-2 {
+        background-image: url($image2);
+    }
+    .s-item-3 {
+        background-image: url($image3);
+    }
+    .s-item-4 {
+        background-image: url($image4);
+    }
+    .s-item-5 {
+        background-image: url($image5);
+    }
+    .s-item-6 {
+        background-image: url($image6);
+    }
+    .s-item-7 {
+        background-image: url($image7);
+    }
+}
+
+.slider-type {
+    .slider-content {
+        animation: slider-animation 50s ease-in-out infinite;
+        &:hover {
+            // animation-play-state: paused;
+        }
+    }
+}
+
+@keyframes slider-animation {
+    $i: 0;
+    $j: 0;
+    $times: ($slider-number - 1) * 2;
+    @while $i < 100 {
+        #{$i}%,
+        #{$i + 7}% {
+            @if $i < 50 {
+                transform: translateX(-$slider-width * $j);
+            }
+            @else {
+                transform: translateX(-$slider-width * ($times - $j));
+            }
+        }
+        $i: $i+100 / $times;
+        $j: $j+1;
+    }
+}
