@@ -1,7 +1,13 @@
 @import "bourbon";
-// Colors
-$firstColor: #F5B841;
-$SecondColor: #E2C044;
+// Colors of waves
+$colorFirstWave: #F5B841;
+$colorSecondWave: #E2C044;
+// Colors of DOM
+$colorLogo: #FFC700;
+$colorBackgroundMain: #1F2421;
+$colorBackgroundSecond: #839788;
+$colorTitle: #E9D758;
+$colorComment: #EBE9E9;
 // ------- Первая страница -------
 .logo-wrapper {
     display: flex;
@@ -11,7 +17,7 @@ $SecondColor: #E2C044;
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #1F2421; // background-color: #272626;
+    background-color: $colorBackgroundMain; // background-color: #272626;
     transition: all 0.5s;
     &__header {
         font-size: 5rem;
@@ -22,20 +28,14 @@ $SecondColor: #E2C044;
     }
 }
 
-.article-text {
-    &__features {
-        padding: 50px 30px;
-        font-size: 2.5rem;
-        font-weight: 600;
-        color: #EBE9E9;
-    }
-    &__slogan {
+.slogan {
+    &__title {
         font-size: 2.5rem;
         text-align: left;
         max-width: 50%;
         padding-left: 30px;
         padding-bottom: 20px;
-        color: #EBE9E9;
+        color: $colorComment;
         text-shadow: 1px 1px 1px black;
     }
 }
@@ -84,7 +84,7 @@ $SecondColor: #E2C044;
 .link__tel {
     display: inline-block;
     font-family: 'Comfortaa', cursive;
-    color: #FFC700;
+    color: $colorLogo;
     text-align: center;
     font-size: 1.3rem;
 }
@@ -94,7 +94,7 @@ $SecondColor: #E2C044;
     height: 100px;
 }
 
-.article-wrapper__slogan {
+.slogan__wrapper {
     height: 100vh;
     width: 100%;
     overflow: hidden;
@@ -117,13 +117,13 @@ $SecondColor: #E2C044;
     &::before {
         left: 70%;
         bottom: -35%;
-        background-color: rgba($firstColor, 0.8);
+        background-color: rgba($colorFirstWave, 0.8);
         @include animation(wawes 45s infinite linear);
     }
     &::after {
         left: 55%;
         bottom: -40%;
-        background-color: rgba($SecondColor, 0.8);
+        background-color: rgba($colorSecondWave, 0.8);
         @include animation(wawes 30s infinite);
     }
 }
@@ -137,14 +137,24 @@ $SecondColor: #E2C044;
     }
 }
 
-.article-wrapper {
-    &__box-features {
+.features {
+    &__wrapper {
         // height: 100vh;
-        background-color: #1F2421;
+        background-color: $colorBackgroundMain;
     }
-    &__box-parametres {
-        // height: 100vh;
-        background-color: #1F2421;
+    &__title {
+        padding: 50px 30px;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: $colorComment;
+        text-align: center;
+    }
+    &__line {
+        height: 2px;
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: $colorBackgroundSecond;
     }
 }
 
@@ -162,27 +172,27 @@ $SecondColor: #E2C044;
     }
     &__item {
         padding: 0 20px;
-        min-height: 500px;
+        min-height: 400px;
     }
     &__item--title {
         text-align: center;
         text-transform: uppercase;
         font-family: 'Comfortaa', cursive;
         font-weight: bold;
-        color: #EBE9E9;
+        color: $colorComment;
     }
     &__item--slogan {
         padding: 10px 30px;
         text-align: center;
         font-size: 1.5rem;
-        color: #e9d758;
+        color: $colorTitle;
     }
     &__item--comment {
         padding: 20px 35px;
         font-size: 1.3rem;
         font-style: italic;
         text-align: center;
-        color: #839788;
+        color: $colorBackgroundSecond;
     }
     &__icon {
         width: 150px;
@@ -198,7 +208,7 @@ $SecondColor: #E2C044;
     }
     &__list {
         list-style: disc;
-        color: #E9D758;
+        color: $colorTitle;
         padding-left: 50px;
     }
     &__list--item {
@@ -206,7 +216,7 @@ $SecondColor: #E2C044;
         text-align: left;
         font-style: italic;
         font-size: 1.3rem;
-        color: #839788;
+        color: $colorBackgroundSecond;
         ;
     }
 }
@@ -249,22 +259,69 @@ $SecondColor: #E2C044;
     }
 }
 
-.product-text {
-    &__header {
+.product {
+    &__title {
         padding: 50px 30px;
         font-size: 1.8rem;
         font-weight: 600;
-        color: #EBE9E9;
-    }
-    &__title {
-        padding: 5px 30px;
-        text-align: left;
-        font-size: 1.5rem;
-        color: #E9D758;
+        color: $colorComment;
     }
     &__list {
         list-style: disc;
-        color: #E9D758;
+        color: $colorTitle;
         padding-left: 50px;
+    }
+    &__item {
+        padding: 5px 30px;
+        text-align: left;
+        font-size: 1.5rem;
+        color: $colorTitle;
+    }
+}
+
+// ============== CONTACTS ==============
+.contact {
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__map {
+        // max-width: 50%;
+        min-width: 400px;
+        padding: 20px 50px;
+    }
+    &__box {
+        // max-width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    &__header {
+        padding: 20px 20px 10px;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $colorComment;
+    }
+    &__tel,
+    &__mail {
+        display: block;
+        font-family: 'Arsenal', sans-serif;
+        color: $colorTitle;
+        text-align: left;
+        font-size: 1.5rem;
+        padding: 5px 20px;
+    }
+}
+
+// =========== FOTER  ===========
+.footer {
+    &__text {
+        color: $colorComment;
+        font-family: 'Cuprum', sans-serif;
+        padding-left: 20px;
+        // padding-bottom: 10px;
+    }
+    &__link {
+        color: $colorComment;
+        font-family: 'Cuprum', sans-serif;
     }
 }
