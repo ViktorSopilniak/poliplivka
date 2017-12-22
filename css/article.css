@@ -4,26 +4,44 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #1F2421;
+  background: url("../image/start-photo-croped-right.jpg") center center;
+  background-size: cover;
   transition: all 0.5s;
 }
 
 /* line 22, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .logo-wrapper__header {
   font-size: 5rem;
+  text-shadow: #1F2421 2px 2px 2px;
 }
 
-/* line 25, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
-.logo-wrapper__slogan {
-  font-size: 2rem;
-  padding-bottom: 10px;
+/* line 26, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.logo-wrapper__slogan-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20px;
 }
 
 /* line 32, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.logo-wrapper__slogan {
+  font-size: 2rem;
+  text-shadow: #1F2421 2px 2px 1px;
+  padding-bottom: 10px;
+}
+
+/* line 37, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.logo-wrapper__tel {
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 46, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .slogan__title {
   font-size: 2.5rem;
   text-align: left;
@@ -34,7 +52,7 @@
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 43, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 57, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .shrink-box {
   position: fixed;
   top: 0;
@@ -44,58 +62,70 @@
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
+  background: none;
+  background-color: #1F2421;
 }
 
-/* line 54, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 70, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .shrink-header {
   text-align: left;
   font-size: 4rem;
   padding-left: 30px;
 }
 
-/* line 60, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 76, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .shrink-slogan {
   text-align: left;
   font-size: 1.5rem;
   padding-bottom: 10px;
 }
 
-/* line 66, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
-.logo-wrapper__slogan-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-right: 20px;
-}
-
-/* line 73, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
-.logo-wrapper__tel {
-  display: none;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-/* line 80, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 82, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .shrink-tel {
   display: flex;
 }
 
-/* line 84, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 86, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .link__tel {
   display: inline-block;
   font-family: 'Comfortaa', cursive;
-  color: #FFC700;
+  color: #fff777;
   text-align: center;
   font-size: 1.3rem;
 }
 
-/* line 93, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 94, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.animationAct {
+  animation-name: flip;
+  animation-duration: 1s;
+}
+
+/* line 100, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.animationDelay__2 {
+  animation-delay: 0.2s;
+}
+
+/* line 103, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.animationDelay__3 {
+  animation-delay: 0.4s;
+}
+
+/* line 106, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.animationDelay__4 {
+  animation-delay: 0.6s;
+}
+
+/* line 109, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.animationDelay__5 {
+  animation-delay: 0.8s;
+}
+
+/* line 115, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .nav-pad {
   height: 100px;
 }
 
-/* line 97, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 119, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .slogan__wrapper {
   height: 100vh;
   width: 100%;
@@ -106,7 +136,7 @@
   justify-content: center;
 }
 
-/* line 105, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 127, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .slogan__wrapper::before, .slogan__wrapper::after {
   content: '';
   position: absolute;
@@ -119,7 +149,7 @@
   z-index: 0;
 }
 
-/* line 117, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 139, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .slogan__wrapper::before {
   left: 70%;
   bottom: -35%;
@@ -129,7 +159,7 @@
   animation: wawes 45s infinite linear;
 }
 
-/* line 123, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 145, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .slogan__wrapper::after {
   left: 55%;
   bottom: -40%;
@@ -174,12 +204,12 @@
   }
 }
 
-/* line 141, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 163, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features__wrapper {
   background-color: #1F2421;
 }
 
-/* line 145, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 167, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features__title {
   padding: 50px 30px;
   font-size: 2.5rem;
@@ -188,7 +218,7 @@
   text-align: center;
 }
 
-/* line 152, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 174, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features__line {
   height: 2px;
   width: 90%;
@@ -197,7 +227,7 @@
   background-color: #839788;
 }
 
-/* line 161, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 183, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box {
   display: flex;
   padding: 10px 20px;
@@ -206,23 +236,23 @@
   list-style: none;
 }
 
-/* line 167, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 189, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__three-in-row {
   width: 33.3333%;
 }
 
-/* line 170, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 192, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__five-in-row {
   width: 20%;
 }
 
-/* line 173, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 195, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item {
   padding: 0 20px;
   min-height: 400px;
 }
 
-/* line 177, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 199, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item--title {
   text-align: center;
   text-transform: uppercase;
@@ -231,15 +261,15 @@
   color: #EBE9E9;
 }
 
-/* line 184, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 206, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item--slogan {
   padding: 10px 30px;
   text-align: center;
   font-size: 1.5rem;
-  color: #E9D758;
+  color: #fff777;
 }
 
-/* line 190, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 212, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item--comment {
   padding: 20px 35px;
   font-size: 1.3rem;
@@ -248,7 +278,7 @@
   color: #839788;
 }
 
-/* line 197, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 219, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__icon {
   width: 150px;
   height: 150px;
@@ -256,22 +286,23 @@
   margin: 30px auto;
 }
 
-/* line 203, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 225, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__icon:hover {
   position: relative;
   animation-name: jello;
   transform-origin: center;
+  animation-delay: 0;
   animation-duration: 1s;
 }
 
-/* line 209, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 232, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__list {
   list-style: disc;
-  color: #E9D758;
+  color: #fff777;
   padding-left: 50px;
 }
 
-/* line 214, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 237, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__list--item {
   padding: 2px 30px;
   text-align: left;
@@ -280,47 +311,23 @@
   color: #839788;
 }
 
-@keyframes jello {
-  from,
-  11.1%,
-  to {
-    transform: none;
-  }
-  22.2% {
-    transform: skewX(-12.5deg) skewY(-12.5deg);
-  }
-  33.3% {
-    transform: skewX(6.25deg) skewY(6.25deg);
-  }
-  44.4% {
-    transform: skewX(-3.125deg) skewY(-3.125deg);
-  }
-  55.5% {
-    transform: skewX(1.5625deg) skewY(1.5625deg);
-  }
-  66.6% {
-    transform: skewX(-0.78125deg) skewY(-0.78125deg);
-  }
-  77.7% {
-    transform: skewX(0.39063deg) skewY(0.39063deg);
-  }
-  88.8% {
-    transform: skewX(-0.19531deg) skewY(-0.19531deg);
-  }
+/* line 247, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.no-margin-top {
+  margin-top: -40px;
 }
 
-/* line 254, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 252, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product-wrapper {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 257, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 255, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product-wrapper__box {
   max-width: 45%;
 }
 
-/* line 263, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 261, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product__title {
   padding: 50px 30px;
   font-size: 1.8rem;
@@ -328,40 +335,40 @@
   color: #EBE9E9;
 }
 
-/* line 269, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 267, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product__list {
   list-style: disc;
-  color: #E9D758;
+  color: #fff777;
   padding-left: 50px;
 }
 
-/* line 274, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 272, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product__item {
   padding: 5px 30px;
   text-align: left;
   font-size: 1.5rem;
-  color: #E9D758;
+  color: #fff777;
 }
 
-/* line 284, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 282, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 288, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 286, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__map {
   min-width: 400px;
   padding: 20px 50px;
 }
 
-/* line 293, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 291, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__box {
   display: flex;
   flex-direction: column;
 }
 
-/* line 298, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 296, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__header {
   padding: 20px 20px 10px;
   font-size: 1.8rem;
@@ -369,21 +376,26 @@
   color: #EBE9E9;
 }
 
-/* line 304, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 302, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__tel, .contact__mail {
   display: block;
   font-family: 'Arsenal', sans-serif;
-  color: #E9D758;
+  color: #fff777;
   text-align: left;
   font-size: 1.5rem;
   padding: 5px 20px;
 }
 
-/* line 317, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 315, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+.footer__wrapp {
+  padding: 10px 20px;
+}
+
+/* line 318, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .footer__text {
   color: #EBE9E9;
   font-family: 'Cuprum', sans-serif;
-  padding-left: 20px;
+  text-shadow: #1F2421 -1px -1px 1px;
 }
 
 /* line 323, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
