@@ -1,17 +1,16 @@
 $switch-speed: 1s;
-$slider-number: 7;
+$slider-number: 8;
 $slider-width: 100% / $slider-number;
-
 $height-of-slide: 100%;
 $padding-of-slider-wrapp: 43%;
-
-$image1: "../image/slide-1.jpg";
-$image2: "../image/slide-2.jpg";
-$image3: "../image/slide-3.jpg";
-$image4: "../image/slide-4.jpg";
-$image5: "../image/slide-5.jpg";
-$image6: "../image/slide-6.jpg";
-$image7: "../image/slide-7.jpg";
+$image1: "../image/hd-slide-1.jpg";
+$image2: "../image/hd-slide-2.jpg";
+$image3: "../image/hd-slide-3.jpg";
+$image4: "../image/hd-slide-4.jpg";
+$image5: "../image/hd-slide-5.jpg";
+$image6: "../image/hd-slide-6.jpg";
+$image7: "../image/hd-slide-7.jpg";
+$image8: "../image/hd-slide-8.jpg";
 *,
 *::before,
 *::after {
@@ -23,12 +22,9 @@ $image7: "../image/slide-7.jpg";
     // width: 62%;
     width: 100%;
     padding-bottom: $padding-of-slider-wrapp;
-    position: relative;
-    // border: 10px solid #504d4a;
-    background-color: #504d4a;
-    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    // >input {
+    position: relative; // border: 10px solid #504d4a;
+    background-color: #504d4a; // box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; // >input {
     //     display: none;
     // }
     .slider-content {
@@ -72,6 +68,9 @@ $image7: "../image/slide-7.jpg";
     .s-item-7 {
         background-image: url($image7);
     }
+    .s-item-8 {
+        background-image: url($image8);
+    }
 }
 
 .slider-type {
@@ -79,7 +78,6 @@ $image7: "../image/slide-7.jpg";
         animation: slider-animation 50s ease-in-out infinite;
     }
 }
-
 @keyframes slider-animation {
     $i: 0;
     $j: 0;

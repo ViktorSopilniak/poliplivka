@@ -316,9 +316,9 @@ $colorComment: #EBE9E9;
         padding: 10px 20px;
     }
     &__text {
-        color: $colorComment;
+        color: black;
         font-family: 'Cuprum', sans-serif; // padding-left: 20px;
-        text-shadow: #1F2421 -1px -1px 1px;
+        // text-shadow: #1F2421 -1px -1px 1px;
     }
     &__link {
         color: $colorComment;
