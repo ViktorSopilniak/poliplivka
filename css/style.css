@@ -58,3 +58,7 @@ li {
 article {
     background-color: #1F2421;
 }
+
+.div-no-display {
+    display: none;
+}

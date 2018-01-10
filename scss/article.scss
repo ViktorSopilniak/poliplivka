@@ -42,18 +42,6 @@ $colorComment: #EBE9E9;
     }
 }
 
-.slogan {
-    &__title {
-        font-size: 2.5rem;
-        text-align: left;
-        max-width: 50%;
-        padding-left: 30px;
-        padding-bottom: 20px;
-        color: $colorComment;
-        text-shadow: 1px 1px 1px black;
-    }
-}
-
 .shrink-box {
     position: fixed;
     top: 0;
@@ -110,43 +98,95 @@ $colorComment: #EBE9E9;
         animation-delay: 0.8s;
     }
 }
+// ------- Scroll hint --------
+
+.scrollHint:before {
+    content: "\FE3E"
+}
+
+.scrollHint {
+    position: absolute;
+    left: 47%;
+    bottom: 10px;
+    font-size: 50px;
+    color: black;
+    -webkit-animation: scrollHint 1s infinite normal ease-out;
+    animation: scrollHint 1s infinite normal ease-out;
+}
+
+@-webkit-keyframes scrollHint {
+    0% {
+        bottom: 10px;
+    }
+    50% {
+        bottom: 15px;
+    }
+    100% {
+        bottom: 10px;
+    }
+}
+
+@keyframes scrollHint {
+    0% {
+        bottom: 10px;
+    }
+    50% {
+        bottom: 15px;
+    }
+    100% {
+        bottom: 10px;
+    }
+}
+
+
 
 // ------- Вторая страница -------
 .nav-pad {
     height: 100px;
 }
 
-.slogan__wrapper {
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    &::before,
-    &::after {
-        content: '';
-        position: absolute;
-        width: 1200px;
-        height: 1200px;
-        border-top-left-radius: 40%;
-        border-top-right-radius: 45%;
-        border-bottom-left-radius: 35%;
-        border-bottom-right-radius: 40%;
-        z-index: 0;
+.slogan {
+    &__title {
+        font-size: 2.5rem;
+        text-align: left;
+        max-width: 50%;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        color: $colorComment;
+        text-shadow: 1px 1px 1px black;
     }
-    &::before {
-        left: 70%;
-        bottom: -35%;
-        background-color: rgba($colorFirstWave, 0.8);
-        @include animation(wawes 45s infinite linear);
-    }
-    &::after {
-        left: 55%;
-        bottom: -40%;
-        background-color: rgba($colorSecondWave, 0.8);
-        @include animation(wawes 30s infinite);
+    &__wrapper {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            width: 1200px;
+            height: 1200px;
+            border-top-left-radius: 40%;
+            border-top-right-radius: 45%;
+            border-bottom-left-radius: 35%;
+            border-bottom-right-radius: 40%;
+            z-index: 0;
+        }
+        &::before {
+            left: 70%;
+            bottom: -35%;
+            background-color: rgba($colorFirstWave, 0.8);
+            @include animation(wawes 45s infinite linear);
+        }
+        &::after {
+            left: 55%;
+            bottom: -40%;
+            background-color: rgba($colorSecondWave, 0.8);
+            @include animation(wawes 30s infinite);
+        }
     }
 }
 
@@ -161,7 +201,7 @@ $colorComment: #EBE9E9;
 
 .features {
     &__wrapper {
-        // height: 100vh;
+        min-height: 635px;
         background-color: $colorBackgroundMain;
     }
     &__title {
@@ -321,7 +361,7 @@ $colorComment: #EBE9E9;
         // text-shadow: #1F2421 -1px -1px 1px;
     }
     &__link {
-        color: $colorComment;
+        color: #333333;
         font-family: 'Cuprum', sans-serif;
     }
 }

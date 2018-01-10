@@ -1,15 +1,16 @@
 @charset "UTF-8";
-/* line 14, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 15, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* line 21, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 22, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap {
   width: 100%;
-  padding-bottom: 43%;
+  height: 600px;
+  padding-bottom: 5%;
   position: relative;
   background-color: #504d4a;
   overflow: hidden;
