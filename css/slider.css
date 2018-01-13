@@ -16,7 +16,7 @@
   overflow: hidden;
 }
 
-/* line 30, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 29, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .slider-content {
   margin: 0;
   padding: 0;
@@ -30,7 +30,7 @@
   transition: transform 1s;
 }
 
-/* line 42, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 41, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .s-item {
   display: inline-block;
   width: 12.5%;
@@ -40,47 +40,47 @@
   background-position: center bottom;
 }
 
-/* line 50, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 49, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .s-item-1 {
   background-image: url("../image/hd-slide-1.jpg");
 }
 
-/* line 53, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 52, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .s-item-2 {
   background-image: url("../image/hd-slide-2.jpg");
 }
 
-/* line 56, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 55, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .s-item-3 {
   background-image: url("../image/hd-slide-3.jpg");
 }
 
-/* line 59, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 58, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .s-item-4 {
   background-image: url("../image/hd-slide-4.jpg");
 }
 
-/* line 62, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 61, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .s-item-5 {
   background-image: url("../image/hd-slide-5.jpg");
 }
 
-/* line 65, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 64, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .s-item-6 {
   background-image: url("../image/hd-slide-6.jpg");
 }
 
-/* line 68, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 67, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .s-item-7 {
   background-image: url("../image/hd-slide-7.jpg");
 }
 
-/* line 71, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 70, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-wrap .s-item-8 {
   background-image: url("../image/hd-slide-8.jpg");
 }
 
-/* line 77, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+/* line 76, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
 .slider-type .slider-content {
   animation: slider-animation 50s ease-in-out infinite;
 }
