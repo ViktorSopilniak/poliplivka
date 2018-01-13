@@ -168,7 +168,7 @@
 
 /* line 159, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .slogan__wrapper {
-  height: 1000px;
+  height: 800px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -254,13 +254,14 @@
 /* line 208, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features__title {
   padding: 50px 30px;
+  font-family: 'Arsenal', sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
   color: #EBE9E9;
   text-align: center;
 }
 
-/* line 215, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 216, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features__line {
   height: 2px;
   width: 90%;
@@ -269,7 +270,7 @@
   background-color: #839788;
 }
 
-/* line 224, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 225, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box {
   display: flex;
   padding: 10px 20px;
@@ -278,40 +279,41 @@
   list-style: none;
 }
 
-/* line 230, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 231, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__three-in-row {
   width: 33.3333%;
 }
 
-/* line 233, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 234, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__five-in-row {
   width: 20%;
 }
 
-/* line 236, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 237, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item {
   padding: 0 20px;
   min-height: 400px;
 }
 
-/* line 240, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 241, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item--title {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Comfortaa', cursive;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #EBE9E9;
 }
 
-/* line 247, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 249, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item--slogan {
-  padding: 10px 30px;
+  padding: 10px 5px;
   text-align: center;
   font-size: 1.5rem;
   color: #fff777;
 }
 
-/* line 253, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 255, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__item--comment {
   padding: 20px 35px;
   font-size: 1.3rem;
@@ -320,7 +322,7 @@
   color: #839788;
 }
 
-/* line 260, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 262, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__icon {
   width: 150px;
   height: 150px;
@@ -328,7 +330,7 @@
   margin: 30px auto;
 }
 
-/* line 266, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 268, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__icon:hover {
   position: relative;
   animation-name: jello;
@@ -337,14 +339,14 @@
   animation-duration: 1s;
 }
 
-/* line 273, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 275, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__list {
   list-style: disc;
   color: #fff777;
   padding-left: 50px;
 }
 
-/* line 278, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 280, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .features-box__list--item {
   padding: 2px 30px;
   text-align: left;
@@ -353,23 +355,23 @@
   color: #839788;
 }
 
-/* line 288, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 290, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .no-margin-top {
   margin-top: -40px;
 }
 
-/* line 293, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 295, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product-wrapper {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 296, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 298, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product-wrapper__box {
   max-width: 45%;
 }
 
-/* line 302, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 304, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product__title {
   padding: 50px 30px;
   font-size: 1.8rem;
@@ -377,14 +379,14 @@
   color: #EBE9E9;
 }
 
-/* line 308, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 310, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product__list {
   list-style: disc;
   color: #fff777;
   padding-left: 50px;
 }
 
-/* line 313, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 315, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .product__item {
   padding: 5px 30px;
   text-align: left;
@@ -392,25 +394,25 @@
   color: #fff777;
 }
 
-/* line 323, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 325, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__wrapper {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 327, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 329, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__map {
   min-width: 400px;
   padding: 20px 50px;
 }
 
-/* line 332, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 334, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__box {
   display: flex;
   flex-direction: column;
 }
 
-/* line 337, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 339, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__header {
   padding: 20px 20px 10px;
   font-size: 1.8rem;
@@ -418,7 +420,7 @@
   color: #EBE9E9;
 }
 
-/* line 343, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 345, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__tel, .contact__mail {
   display: block;
   font-family: 'Arsenal', sans-serif;
@@ -428,18 +430,18 @@
   padding: 5px 20px;
 }
 
-/* line 356, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 358, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .footer__wrapp {
   padding: 10px 20px;
 }
 
-/* line 359, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 361, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .footer__text {
   color: black;
   font-family: 'Cuprum', sans-serif;
 }
 
-/* line 364, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 366, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .footer__link {
   color: #333333;
   font-family: 'Cuprum', sans-serif;

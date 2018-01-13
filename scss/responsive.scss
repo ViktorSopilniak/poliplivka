@@ -1,0 +1,144 @@
+@media screen and (min-width: 880px) and (max-width: 1264px) {
+    .features-box {
+        &__icon {
+            width: 100px;
+            height: 100px;
+        }
+        &__item {
+            padding: 0 10px;
+        }
+        &__item--slogan {
+            font-size: 1.2rem;
+        }
+        &__item--title {
+            font-size: 1rem;
+        }
+        &__item--comment {
+            padding: 10px 10px;
+        }
+    }
+    .slogan__title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:760px) and (max-width: 879px) {
+    .features-box {
+        &__icon {
+            width: 100px;
+            height: 100px;
+        }
+        &__item {
+            padding: 0 10px;
+        }
+        &__item--slogan {
+            font-size: 1.2rem;
+        }
+        &__item--title {
+            font-size: 1rem;
+        }
+        &__item--comment {
+            padding: 10px 10px;
+        }
+    }
+    .slogan__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:600) and (max-width:759px) {
+    .logo-wrapper {
+        &__header {
+            font-size: 3rem;
+            text-shadow: #1F2421 1px 1px 1px;
+        }
+        &__slogan {
+            font-size: 1.2rem;
+            text-shadow: #1F2421 1px 1px 1px;
+        }
+    }
+    .features__wrapper {
+        min-height: 100%;
+    }
+    .features-box {
+        &__icon {
+            width: 100px;
+            height: 100px;
+        }
+        &__item {
+            padding: 0 10px;
+            min-height: 100%;
+        }
+        &__item--slogan {
+            font-size: 1.2rem;
+        }
+        &__item--title {
+            font-size: 1rem;
+        }
+        &__item--comment {
+            padding: 10px 10px;
+        }
+    }
+    .slogan__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .logo-wrapper {
+        &__header {
+            font-size: 2rem;
+            text-shadow: #1F2421 1px 1px 1px;
+        }
+        &__slogan {
+            font-size: 1rem;
+            text-shadow: #1F2421 1px 1px 1px;
+        }
+    }
+    .link__tel {
+        font-size: 1rem;
+    }
+    .features__wrapper {
+        min-height: 100%;
+    }
+    .features-box {
+        display: block;
+        &__icon {
+            width: 200px;
+            height: 200px;
+            margin-top: 60px;
+        }
+        &__item {
+            padding: 0 10px;
+            min-height: 100%;
+            width: 100%;
+        }
+        &__item--slogan {
+            font-size: 2rem;
+        }
+        &__item--title {
+            font-size: 1.5rem;
+        }
+        &__item--comment {
+            padding: 10px 10px;
+        }
+    }
+    .slogan__title {
+        font-size: 1.5rem;
+    }
+    .product-wrapper {
+        display: block;
+        &__box {
+            max-width: 100%;
+        }
+    }
+    .contact {
+        &__map {
+            padding: 0;
+        }
+        &__box {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+}

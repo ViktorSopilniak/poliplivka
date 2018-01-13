@@ -207,6 +207,7 @@ $colorComment: #EBE9E9;
     }
     &__title {
         padding: 50px 30px;
+        font-family: 'Arsenal', sans-serif;
         font-size: 2.5rem;
         font-weight: 600;
         color: $colorComment;
@@ -241,11 +242,12 @@ $colorComment: #EBE9E9;
         text-align: center;
         text-transform: uppercase;
         font-family: 'Comfortaa', cursive;
+        font-size: 1.5rem;
         font-weight: bold;
         color: $colorComment;
     }
     &__item--slogan {
-        padding: 10px 30px;
+        padding: 10px 5px;
         text-align: center;
         font-size: 1.5rem;
         color: $colorTitle;
