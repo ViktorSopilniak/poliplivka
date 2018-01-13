@@ -53,6 +53,7 @@ $colorComment: #EBE9E9;
     align-content: center;
     background: none;
     background-color: $colorBackgroundMain;
+    box-shadow : 10px 0px 10px #000000;
 }
 
 .shrink-header {
@@ -156,7 +157,7 @@ $colorComment: #EBE9E9;
         text-shadow: 1px 1px 1px black;
     }
     &__wrapper {
-        height: 100vh;
+        height: 800px;
         width: 100%;
         overflow: hidden;
         position: relative;
