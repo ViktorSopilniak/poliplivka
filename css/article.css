@@ -398,21 +398,22 @@
 .contact__wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-/* line 329, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 330, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__map {
   min-width: 400px;
   padding: 20px 50px;
 }
 
-/* line 334, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 335, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__box {
   display: flex;
   flex-direction: column;
 }
 
-/* line 339, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 340, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__header {
   padding: 20px 20px 10px;
   font-size: 1.8rem;
@@ -420,7 +421,7 @@
   color: #EBE9E9;
 }
 
-/* line 345, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 346, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .contact__tel, .contact__mail {
   display: block;
   font-family: 'Arsenal', sans-serif;
@@ -430,18 +431,18 @@
   padding: 5px 20px;
 }
 
-/* line 358, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 359, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .footer__wrapp {
   padding: 10px 20px;
 }
 
-/* line 361, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 362, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .footer__text {
   color: black;
   font-family: 'Cuprum', sans-serif;
 }
 
-/* line 366, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
+/* line 367, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/article.scss */
 .footer__link {
   color: #333333;
   font-family: 'Cuprum', sans-serif;

@@ -1,4 +1,66 @@
-@media screen and (min-width: 880px) and (max-width: 1264px) {
+@media screen and (min-width: 1800px) {
+    .logo-wrapper {
+        &__header {
+            font-size: 5rem; // text-shadow: #1F2421 1px 1px 1px;
+        }
+        &__slogan {
+            font-size: 2rem; // text-shadow: #1F2421 1px 1px 1px;
+        }
+    }
+    .features-box {
+        &__icon {
+            width: 250px;
+            height: 250px;
+        }
+        &__item {
+            // padding: 0 10px;
+        }
+        &__item--slogan {
+            font-size: 2.5rem;
+        }
+        &__item--title {
+            font-size: 2rem;
+        }
+        &__item--comment {
+            font-size: 2rem;
+        }
+        &__list--item {
+            font-size: 2rem;
+        }
+    }
+    .features__title {
+        font-size: 4rem;
+    }
+    .slogan__title {
+        font-size: 3rem;
+    }
+    .product {
+        &__title {
+            font-size: 2.5rem;
+        }
+        &__item {
+            font-size: 2rem;
+        }
+    }
+    .contact {
+        &__map {
+            // padding: 0 auto;
+        }
+        &__box {
+            // width: 100%;
+            margin-bottom: 50px;
+        }
+        &__header {
+            font-size: 2.5rem;
+        }
+        &__tel,
+        &__mail {
+            font-size: 2.3rem;
+        }
+    }
+}
+
+@media screen and (min-width: 880px) and (max-width: 1024px) {
     .features-box {
         &__icon {
             width: 100px;
@@ -19,6 +81,15 @@
     }
     .slogan__title {
         font-size: 2rem;
+    }
+    .contact {
+        &__map {
+            padding: 0 auto;
+        }
+        &__box {
+            width: 100%;
+            margin-bottom: 50px;
+        }
     }
 }
 
@@ -43,6 +114,15 @@
     }
     .slogan__title {
         font-size: 1.5rem;
+    }
+    .contact {
+        &__map {
+            padding: 0;
+        }
+        &__box {
+            width: 100%;
+            margin-bottom: 50px;
+        }
     }
 }
 
@@ -81,6 +161,15 @@
     }
     .slogan__title {
         font-size: 1.5rem;
+    }
+    .contact {
+        &__map {
+            padding: 0;
+        }
+        &__box {
+            width: 100%;
+            margin-bottom: 50px;
+        }
     }
 }
 

@@ -84,7 +84,7 @@ $image8: "../image/hd-slide-8.jpg";
     $times: ($slider-number - 1) * 2;
     @while $i < 100 {
         #{$i}%,
-        #{$i + 7}% {
+            #{$i + 6}% {
             @if $i < 50 {
                 transform: translateX(-$slider-width * $j);
             }
@@ -95,4 +95,11 @@ $image8: "../image/hd-slide-8.jpg";
         $i: $i+100 / $times;
         $j: $j+1;
     }
+}
+
+// ---------- RESPONSIVE --------------
+@media screen and (max-width: 800px) {
+    .slider-wrap {
+    height: 400px;
+
 }

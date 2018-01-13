@@ -325,6 +325,7 @@ $colorComment: #EBE9E9;
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     &__map {
         // max-width: 50%;

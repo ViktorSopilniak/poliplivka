@@ -87,64 +87,71 @@
 
 @keyframes slider-animation {
   0%,
-  7% {
+  6% {
     transform: translateX(0%);
   }
   7.14286%,
-  14.14286% {
+  13.14286% {
     transform: translateX(-12.5%);
   }
   14.28571%,
-  21.28571% {
+  20.28571% {
     transform: translateX(-25%);
   }
   21.42857%,
-  28.42857% {
+  27.42857% {
     transform: translateX(-37.5%);
   }
   28.57143%,
-  35.57143% {
+  34.57143% {
     transform: translateX(-50%);
   }
   35.71429%,
-  42.71429% {
+  41.71429% {
     transform: translateX(-62.5%);
   }
   42.85714%,
-  49.85714% {
+  48.85714% {
     transform: translateX(-75%);
   }
   50%,
-  57% {
+  56% {
     transform: translateX(-87.5%);
   }
   57.14286%,
-  64.14286% {
+  63.14286% {
     transform: translateX(-75%);
   }
   64.28571%,
-  71.28571% {
+  70.28571% {
     transform: translateX(-62.5%);
   }
   71.42857%,
-  78.42857% {
+  77.42857% {
     transform: translateX(-50%);
   }
   78.57143%,
-  85.57143% {
+  84.57143% {
     transform: translateX(-37.5%);
   }
   85.71429%,
-  92.71429% {
+  91.71429% {
     transform: translateX(-25%);
   }
   92.85714%,
-  99.85714% {
+  98.85714% {
     transform: translateX(-12.5%);
   }
   100%,
-  107% {
+  106% {
     transform: translateX(0%);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* line 101, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/slider.scss */
+  .slider-wrap {
+    height: 400px;
   }
 }
 

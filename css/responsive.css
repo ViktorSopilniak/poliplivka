@@ -1,84 +1,73 @@
 @charset "UTF-8";
-@media screen and (min-width: 880px) and (max-width: 1264px) {
+@media screen and (min-width: 1800px) {
   /* line 3, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features-box__icon {
-    width: 100px;
-    height: 100px;
+  .logo-wrapper__header {
+    font-size: 5rem;
   }
-  /* line 7, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features-box__item {
-    padding: 0 10px;
-  }
-  /* line 10, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features-box__item--slogan {
-    font-size: 1.2rem;
-  }
-  /* line 13, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features-box__item--title {
-    font-size: 1rem;
-  }
-  /* line 16, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features-box__item--comment {
-    padding: 10px 10px;
-  }
-  /* line 20, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .slogan__title {
+  /* line 6, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .logo-wrapper__slogan {
     font-size: 2rem;
   }
-}
-
-@media screen and (min-width: 760px) and (max-width: 879px) {
-  /* line 27, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 11, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box__icon {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
+  }
+  /* line 18, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item--slogan {
+    font-size: 2.5rem;
+  }
+  /* line 21, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item--title {
+    font-size: 2rem;
+  }
+  /* line 24, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item--comment {
+    font-size: 2rem;
+  }
+  /* line 27, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__list--item {
+    font-size: 2rem;
   }
   /* line 31, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features-box__item {
-    padding: 0 10px;
+  .features__title {
+    font-size: 4rem;
   }
   /* line 34, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features-box__item--slogan {
-    font-size: 1.2rem;
-  }
-  /* line 37, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features-box__item--title {
-    font-size: 1rem;
-  }
-  /* line 40, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features-box__item--comment {
-    padding: 10px 10px;
-  }
-  /* line 44, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .slogan__title {
-    font-size: 1.5rem;
+    font-size: 3rem;
+  }
+  /* line 38, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .product__title {
+    font-size: 2.5rem;
+  }
+  /* line 41, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .product__item {
+    font-size: 2rem;
+  }
+  /* line 49, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .contact__box {
+    margin-bottom: 50px;
+  }
+  /* line 53, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .contact__header {
+    font-size: 2.5rem;
+  }
+  /* line 56, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .contact__tel, .contact__mail {
+    font-size: 2.3rem;
   }
 }
 
-@media screen and (min-width: 600) and (max-width: 759px) {
-  /* line 51, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .logo-wrapper__header {
-    font-size: 3rem;
-    text-shadow: #1F2421 1px 1px 1px;
-  }
-  /* line 55, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .logo-wrapper__slogan {
-    font-size: 1.2rem;
-    text-shadow: #1F2421 1px 1px 1px;
-  }
-  /* line 60, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
-  .features__wrapper {
-    min-height: 100%;
-  }
-  /* line 64, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+@media screen and (min-width: 880px) and (max-width: 1024px) {
+  /* line 65, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box__icon {
     width: 100px;
     height: 100px;
   }
-  /* line 68, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 69, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box__item {
     padding: 0 10px;
-    min-height: 100%;
   }
   /* line 72, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box__item--slogan {
@@ -94,74 +83,172 @@
   }
   /* line 82, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .slogan__title {
+    font-size: 2rem;
+  }
+  /* line 86, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .contact__map {
+    padding: 0 auto;
+  }
+  /* line 89, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .contact__box {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 879px) {
+  /* line 98, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__icon {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 102, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item {
+    padding: 0 10px;
+  }
+  /* line 105, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item--slogan {
+    font-size: 1.2rem;
+  }
+  /* line 108, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item--title {
+    font-size: 1rem;
+  }
+  /* line 111, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item--comment {
+    padding: 10px 10px;
+  }
+  /* line 115, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .slogan__title {
     font-size: 1.5rem;
+  }
+  /* line 119, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .contact__map {
+    padding: 0;
+  }
+  /* line 122, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .contact__box {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 600) and (max-width: 759px) {
+  /* line 131, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .logo-wrapper__header {
+    font-size: 3rem;
+    text-shadow: #1F2421 1px 1px 1px;
+  }
+  /* line 135, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .logo-wrapper__slogan {
+    font-size: 1.2rem;
+    text-shadow: #1F2421 1px 1px 1px;
+  }
+  /* line 140, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features__wrapper {
+    min-height: 100%;
+  }
+  /* line 144, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__icon {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 148, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item {
+    padding: 0 10px;
+    min-height: 100%;
+  }
+  /* line 152, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item--slogan {
+    font-size: 1.2rem;
+  }
+  /* line 155, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item--title {
+    font-size: 1rem;
+  }
+  /* line 158, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .features-box__item--comment {
+    padding: 10px 10px;
+  }
+  /* line 162, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .slogan__title {
+    font-size: 1.5rem;
+  }
+  /* line 166, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .contact__map {
+    padding: 0;
+  }
+  /* line 169, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  .contact__box {
+    width: 100%;
+    margin-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 599px) {
-  /* line 89, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 178, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .logo-wrapper__header {
     font-size: 2rem;
     text-shadow: #1F2421 1px 1px 1px;
   }
-  /* line 93, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 182, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .logo-wrapper__slogan {
     font-size: 1rem;
     text-shadow: #1F2421 1px 1px 1px;
   }
-  /* line 98, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 187, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .link__tel {
     font-size: 1rem;
   }
-  /* line 101, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 190, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features__wrapper {
     min-height: 100%;
   }
-  /* line 104, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 193, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box {
     display: block;
   }
-  /* line 106, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 195, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box__icon {
     width: 200px;
     height: 200px;
     margin-top: 60px;
   }
-  /* line 111, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 200, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box__item {
     padding: 0 10px;
     min-height: 100%;
     width: 100%;
   }
-  /* line 116, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 205, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box__item--slogan {
     font-size: 2rem;
   }
-  /* line 119, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 208, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box__item--title {
     font-size: 1.5rem;
   }
-  /* line 122, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 211, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .features-box__item--comment {
     padding: 10px 10px;
   }
-  /* line 126, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 215, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .slogan__title {
     font-size: 1.5rem;
   }
-  /* line 129, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 218, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .product-wrapper {
     display: block;
   }
-  /* line 131, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 220, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .product-wrapper__box {
     max-width: 100%;
   }
-  /* line 136, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 225, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .contact__map {
     padding: 0;
   }
-  /* line 139, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
+  /* line 228, C:/Users/Виктор/Dropbox/LeNovo310/Documents/FE projects/poliplivka/scss/responsive.scss */
   .contact__box {
     width: 100%;
     margin-bottom: 50px;
